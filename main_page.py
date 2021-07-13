@@ -52,7 +52,8 @@ class Ui_MainWindow(object):
     def setupUi(self, MainWindow):
         MainWindow.setObjectName("MainWindow")
         MainWindow.resize(800, 596)
-        MainWindow.setStyleSheet("background-color: #E9E9E9")
+        MainWindow.setStyleSheet("background-color: #E9E9E9;\n"
+                                 "font: \'Roboto\', sans-serif;")
 
 
         self.centralwidget = QtWidgets.QWidget(MainWindow)
@@ -100,25 +101,25 @@ class Ui_MainWindow(object):
 
 
         self.KZ = QtWidgets.QLabel(self.centralwidget)
-        self.KZ.setGeometry(QtCore.QRect(50, 540, 21, 21))
+        self.KZ.setGeometry(QtCore.QRect(40, 540, 35, 35))
         self.KZ.setStyleSheet("background-color: #2B579A;\n"
 "color: #ffffff;\n"
-"font-size: 15px")
+"font-size: 18px")
         self.KZ.setObjectName("KZ")
 
         self.RU = QtWidgets.QLabel(self.centralwidget)
-        self.RU.setGeometry(QtCore.QRect(100, 540, 21, 21))
+        self.RU.setGeometry(QtCore.QRect(90, 540, 35, 35))
         self.RU.setStyleSheet("background-color: #2B579A;\n"
 "color: #ffffff;\n"
-"font-size: 15px")
+"font-size: 18px")
         self.RU.setObjectName("RU")
 
 
         self.EN = QtWidgets.QLabel(self.centralwidget)
-        self.EN.setGeometry(QtCore.QRect(150, 540, 21, 21))
+        self.EN.setGeometry(QtCore.QRect(140, 540, 35, 35))
         self.EN.setStyleSheet("background-color: #2B579A;\n"
 "color: #ffffff;\n"
-"font-size: 15px")
+"font-size: 18px")
         self.EN.setObjectName("EN")
 
 
